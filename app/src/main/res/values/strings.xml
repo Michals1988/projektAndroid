@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">projektAndroid</string>
+    <string name="buttonNotes">NOTATKI</string>
+    <string name="buttonContact">KSIĄŻKA TELEFONICZNA</string>
+    <string name="buttonPrzypominajka">PRZYPOMINAJKA</string>
+    <string name="buttonMultimedia">MULTIMEDIA</string>
+    <string name="buttonAddNote">DODAJ NOTATKE</string>
+    <string name="buttonAllNote">WSZYSTKIE NOTATKI</string>
+    <string name="buttonSearch">WYSZUKAJ NOTATKI</string>
+    <string name="multiLineTextNoteName">NAZWA NOTATKI</string>
+    <string name="multiLineTextNote">TREŚĆ NOTATKI:</string>
+    <string name="buttonSubmit">ZAPISZ</string>
+    <string name="buttonDiscard">ODRZUĆ</string>
+    <string name="listText">Lista dostepnych notatek:</string>
+    <string name="searchText">Szuakana notatka</string>
+    <string name="dialogTitle">Na pewno chcesz usunąć notatkę?</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="add_reminder">Dodaj przypomnienie</string>
+    <string name="show_actual_reminder">Aktywne przypomnienia</string>
+    <string name="show_archival_reminder">Archiwalne przypomnienia</string>
+    <string name="add_contact">Dodaj kontakt</string>
+    <string name="show_contacts">Przegladaj kontakty</string>
+    <string name="add_contact_text">Dodaj kontakt</string>
+    <string name="add_contact_name">Imie</string>
+    <string name="add_contact_surname">Nazwisko</string>
+    <string name="add_contact_email">e-mail</string>
+    <string name="add_contact_number">Numer telefonu</string>
+    <string name="add_contact_Male">Mezczyzna</string>
+    <string name="add_contact_Female">Kobieta</string>
+    <string name="show_contact_delete">USUN</string>
+    <string name="show_contact_edit">EDYTUJ</string>
+    <string name="show_contact_show">WYSWIETL</string>
+    <string name="show_one_contact">SZCZEGOLY KONTAKTU</string>
+    <string name="show_one_contact_button_delete">USUN</string>
+    <string name="show_one_contact_button_edit">EDYTUJ</string>
+    <string name="show_one_contact_button_call">ZADZWON</string>
+    <string name="edit_contact">EDYCJA KONTAKTU</string>
+    <string name="search_contacts">Szukaj kontaktow</string>
+    <string name="hintSearchText">Wpisz szukana fraze...</string>
+    <string name="hintAddReminder">Wpisz nazwe przypomnienia....</string>
+    <string name="addReminderTitle">Dodaj przypomnienie</string>
+    <string name="addReminderNote">Wpisz krotka notatke...</string>
+    <string name="reminderActual">Nadchodzace przypomnienia</string>
+    <string name="reminderArchival">Archiwalne przypomnienia</string>
+
+
+</resources>

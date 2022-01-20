@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainEditContact">
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="638dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="@string/edit_contact"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/editContactName"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="textCapSentences"
+            android:hint="@string/add_contact_name" />
+
+        <EditText
+            android:id="@+id/editContactSurname"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="textCapSentences"
+            android:hint="@string/add_contact_surname" />
+
+        <RadioGroup
+            android:id="@+id/editContactGender"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/editContactMale"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:text="@string/add_contact_Male"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/editContactFemale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_contact_Female" />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/editContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:hint="@string/add_contact_number"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editContactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/add_contact_email" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/editAvatarGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/editAvatar1"
+                    android:layout_width="wrap_content"
+
+                    android:scaleType="centerInside"
+                    android:maxHeight="64dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/radio_man1"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/editAvatar2"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:button="@drawable/radio_woman1" />
+
+                <RadioButton
+                    android:id="@+id/editAvatar3"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:button="@drawable/radio_man2" />
+
+                <RadioButton
+                    android:id="@+id/editAvatar4"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
+                    android:button="@drawable/radio_woman2" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/editContactDiscard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="@string/buttonDiscard" />
+
+            <Button
+                android:id="@+id/editContactAccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:text="@string/buttonSubmit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

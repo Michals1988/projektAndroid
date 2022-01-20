@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainShowOneContact">
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="638dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="@string/show_one_contact"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/showOneContactAvatar"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:button="@drawable/man1128"/>
+
+        <TextView
+            android:id="@+id/showOneContactName"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/add_contact_name" />
+
+        <TextView
+            android:id="@+id/showOneContactSurname"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/add_contact_surname" />
+
+        <TextView
+            android:id="@+id/showOneContactGender"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/add_contact_surname" />
+
+        <TextView
+            android:id="@+id/showOneContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:hint="@string/add_contact_number"/>
+
+        <TextView
+            android:id="@+id/showOneContactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/add_contact_email" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/showOneContactDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/show_contact_delete" />
+
+            <Button
+                android:id="@+id/showOneContactEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/show_contact_edit" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/showOneContactCall"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_one_contact_button_call" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
